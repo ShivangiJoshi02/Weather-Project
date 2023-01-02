@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    background-image: url(bg.jpg);
+}
+.card{
+    background-color: rgb(211, 202, 202);
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    height: 200px;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.input{
+    border-radius: 10px;
+    height: 20px;
+    border: none;
+
+}
+.enter{
+    border-radius: 10px;
+    height: 20px;
+    border: none;
+    background-color: rgb(47, 46, 46);
+    color: white;
+}
+.enter:hover{
+    background-color: rgb(156, 154, 154);
+    color: rgb(22, 21, 21);
+}
